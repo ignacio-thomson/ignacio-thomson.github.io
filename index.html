@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" sizes="192x192" type="image/png" href="assets/img/android-chrome-192x192.png">
+    <link
+      rel="icon"
+      sizes="192x192"
+      type="image/png"
+      href="assets/img/android-chrome-192x192.png"
+    />
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -35,9 +40,9 @@
     <title>Ignacio Thomson - Desarrollador Java Junior</title>
   </head>
   <body>
-    <div class="navbar navbar-expand-lg bg-dark py-3 mb-5">
+    <div class="navbar navbar-expand-lg bg-light py-3 mb-5" id="#top">
       <div class="container">
-        <h1 class="navbar-brand text-light abyssinica">Ignacio Thomson</h1>
+        <h1 class="navbar-brand text-dark">Ignacio Thomson</h1>
 
         <button
           class="navbar-toggler"
@@ -54,9 +59,13 @@
             <li class="nav-item">
               <a
                 href="contacto.html"
-                class="nav-link link-contacto"
+                class="nav-link link-contacto text-dark"
                 id="navbar_link"
-                style="text-decoration: none"
+                style="
+                  text-decoration: none;
+                  font-weight: 500;
+                  font-size: large;
+                "
                 >Contacto</a
               >
             </li>
@@ -69,9 +78,7 @@
       <div>
         <div class="container">
           <div class="d-flex justify-content-center">
-            <h1 class="abyssinica" style="text-decoration: underline">
-              Portafolio
-            </h1>
+            <h1>Portafolio</h1>
           </div>
         </div>
       </div>
@@ -85,28 +92,27 @@
               <img
                 src="assets/img/1643636748071.jpg"
                 alt=""
-                class="w-75 shadow-lg mb-5 rounded-circle"
+                class="w-75 mb-5 rounded-circle" style="border: 10px double #000;"
               />
             </div>
             <div class="col-12">
-              <h3 class="d-flex justify-content-center abyssinica">
-                Acerca de mi
-              </h3>
+              <h3 class="d-flex justify-content-center">Acerca de mi</h3>
               <br />
-              <p class="mb-5">
-                Soy un Desarrollador Full Stack Java, actualmente en nivel
-                Junior. Egresé del Bootcamp Desafio Latam, donde fui parte del
-                curso intensivo Java, con el objetivo final de desarrollar
+              <p class="mb-5" style="font-size: large">
+                Soy un <b>Desarrollador Full Stack Java</b>, actualmente en
+                nivel Junior. Egresé del Bootcamp Desafio Latam, donde fui parte
+                del curso intensivo Java, con el objetivo final de desarrollar
                 aplicaciones de carácter empresarial. Utilizamos herramientas
-                como Eclipse IDE, Intellij IDEA, Netbeans IDE, DBeaver, MySQL,
-                etc. Trabajamos con librerías para el Desarrollo Web como
-                Bootstrap, MDBootstrap y JQuery. En el aspecto Java, utilizamos
-                el Framework de Springboot para crear nuestras aplicaciones,
-                donde nos centramos principalmente en generar un CRUD ordenado y
-                estructurado. Utilizamos las bases de datos de Oracle y
-                PostgreSQL. Actualmente estoy estudiando por cuenta propia, para
-                poder trabajar de forma apropiada en el Front-end con ReactJS y
-                AngularJS.
+                como <b>Eclipse IDE</b>, <b>Intellij IDEA</b>,
+                <b>Netbeans IDE</b>, <b>DBeaver</b>, etc. Trabajamos con
+                librerías para el Desarrollo Web como <b>Bootstrap</b>,
+                <b>MDBootstrap</b> y <b>JQuery</b>. En el aspecto Java,
+                utilizamos el Framework de <b>Springboot</b> para crear nuestras
+                aplicaciones, donde nos centramos principalmente en generar un
+                CRUD ordenado y estructurado. Utilizamos las bases de datos de
+                <b>Oracle</b>, <b>PostgreSQL</b> y <b>MySQL</b>. Actualmente
+                estoy estudiando por cuenta propia, para poder trabajar de forma
+                apropiada en el Front-end con <b>ReactJS</b> y <b>AngularJS</b>.
               </p>
             </div>
           </div>
@@ -114,15 +120,6 @@
       </div>
 
       <hr class="hr hr-blurry" />
-
-      <div class="container pt-5">
-        <div
-          class="d-flex justify-content-center align-items-center abyssinica"
-          style="text-decoration: underline"
-        >
-          <h2>Algunos de mis trabajos</h2>
-        </div>
-      </div>
 
       <div class="container pt-5 mb-5">
         <div class="d-flex justify-content-center align-items-center">
@@ -137,7 +134,7 @@
               <h5 class="d-flex align-items-center col-12">
                 Sitio inspirado en la plataforma Netflix
               </h5>
-              <p class="col-12">
+              <p class="col-12" style="font-size: large">
                 Aplicación protegida con credenciales de acceso, con Inicios
                 dedicados tanto para Administrador, como usuarios comunes.
               </p>
@@ -169,7 +166,7 @@
               <h5 class="d-flex align-items-center col-12">
                 Página de registro
               </h5>
-              <p class="col-12">
+              <p class="col-12" style="font-size: large">
                 Formulario de régistro sencillo, que añade a los nuevos usuarios
                 a la base de datos.
               </p>
@@ -185,7 +182,7 @@
               <h5 class="d-flex align-items-center col-12">
                 Página de inicio para los usuarios comunes
               </h5>
-              <p class="col-12">
+              <p class="col-12" style="font-size: large">
                 Los usuarios pueden añadir series a la base de datos dedicadas
                 al material de streaming, asignarles una nota y especificar la
                 plataforma donde encontrarlas. También se pueden editar los
@@ -235,7 +232,7 @@
                 Sitio web inspirado en manejo de bódega para locales comerciales
               </h5>
               <br />
-              <p>
+              <p style="font-size: large">
                 Logistiqal fue un proyecto orientado a imitar una aplicación
                 donde se pudiera administrar la bódega de un local comercial. Al
                 igual que en el proyecto IMDb, se puede realizar un CRUD con los
@@ -273,38 +270,77 @@
       </div>
     </div>
 
-    <footer class="bg-dark text-center text-white">
-      <!-- Grid container -->
-      <div class="container p-4 pb-0">
-        <!-- Section: Social media -->
-        <section class="mb-4">
-          <!-- Linkedin -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="https://www.linkedin.com/in/ignacio-thomson/"
-            role="button"
-            target="_blank"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
+    <div class="container">
+      <hr class="hr hr-blurry" />
+    </div>
 
-          <!-- Github -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="https://github.com/ignacio-thomson"
-            role="button"
-            target="_blank"
-            ><i class="fab fa-github"></i
-          ></a>
-        </section>
-        <!-- Section: Social media -->
+    <div class="container pt-5">
+      <div class="d-flex justify-content-center align-items-center">
+        <h1>API REST - CRUD&trade;</h1>
       </div>
-      <!-- Grid container -->
+    </div>
 
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2022 Ignacio Thomson
+    <div class="container">
+      <div class="d-flex justify-content-center p-5">
+        <iframe
+          width="1280"
+          height="720"
+          src="https://www.youtube.com/embed/64M0GfQOPsQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
-      <!-- Copyright -->
+    </div>
+
+    <div class="container">
+      <div class="d-flex justify-content-center mb-5">
+        <img
+          class="imagen-zoom shadow-lg"
+          width="768px"
+          src="assets/img/API REST/Captura de pantalla 2022-11-08 121014.png"
+          alt=""
+        />
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <div class="w-50">
+          <p style="font-size: large;">
+            Servicio API REST básico, con Back-end desarrollado en el Framework
+            de Java Springboot y Front-end desarrollado en el Framework
+            AngularJS. Se pueden realizar funciones básicas de un CRUD, para
+            añadir personas a una base de datos.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="d-flex justify-content-center mb-5">
+        <img
+          class="w-50 imagen-zoom shadow-lg"
+          src="assets/img/API REST/Captura de pantalla 2022-11-08 121222.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="d-flex justify-content-center" style="margin-bottom: 5rem;">
+        <button class="btn btn-dark">
+          <a href="#top" style="color: #fff; text-decoration: none"
+            >Subir</a
+          >
+        </button>
+      </div>
+    </div>
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="https://www.linkedin.com/in/ignacio-thomson/" class="nav-link px-2 text-muted" target="_blank">Linkedin</a></li>
+        <li class="nav-item"><a href="https://www.github.com/ignacio-thomson" class="nav-link px-2 text-muted" target="_blank">Github</a></li>
+      </ul>
+      <p class="text-center text-muted">2022 - Ignacio Thomson</p>
     </footer>
 
     <!-- MDB -->
