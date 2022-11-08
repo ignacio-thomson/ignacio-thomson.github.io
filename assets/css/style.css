@@ -1,21 +1,25 @@
+body {
+    background-image: url('../img/cool-background2.png');
+}
+
 .link-contacto {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 a:link a:visited a:hover a:active {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .imagen-zoom {
-    transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .imagen-zoom:hover {
-    transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .abyssinica {
-    font-family: 'Abyssinica SIL', sans-serif;
+  font-family: "Abyssinica SIL", sans-serif;
 }
