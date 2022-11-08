@@ -35,9 +35,9 @@
   </head>
   <body>
 
-    <div class="navbar navbar-expand-lg bg-dark py-3 mb-5">
+    <div class="navbar navbar-expand-lg bg-light py-3 mb-5">
       <div class="container">
-        <h1 class="navbar-brand text-light abyssinica">Ignacio Thomson</h1>
+        <h1 class="navbar-brand text-dark">Ignacio Thomson</h1>
 
         <button
           class="navbar-toggler"
@@ -51,19 +51,26 @@
 
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
-            <!-- <li class="nav-item">
-                          <a href="#" class="nav-link" id="navbar_link">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="#" class="nav-link" id="navbar_link">Productos</a>
-                      </li> -->
             <li class="nav-item">
               <a
                 href="index.html"
-                class="nav-link link-contacto"
+                class="nav-link link-contacto text-dark"
                 id="navbar_link"
-                style="text-decoration: none"
+                style="text-decoration: none; font-size: large; font-weight: 500;"
                 >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="proyectos.html"
+                class="nav-link link-contacto text-dark"
+                id="navbar_link"
+                style="
+                  text-decoration: none;
+                  font-weight: 500;
+                  font-size: large;
+                "
+                >Proyectos</a
               >
             </li>
           </ul>
@@ -73,9 +80,9 @@
 
     <div class="container">
       <div class="d-flex justify-content-center align-items-center mb-5">
-        <h1 style="text-decoration: underline;">Datos de contacto</h1>
+        <h1>Datos de contacto</h1>
       </div>
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center" style="font-size: larger;">
         <div class="mb-5">
           <p><b>Email:</b> ignacio.thomson.97@gmail.com</p>
           <p><b>Telefono:</b> +56 9 8424 2228</p>
@@ -86,7 +93,7 @@
     </div>
 
     <div class="container">
-      <div class="d-flex justify-content-center align-items-center">
+      <div class="d-flex justify-content-center align-items-center" style="margin-bottom: 5rem;">
         <img
           src="assets/img/undraw_Engineering_team_a7n2.png"
           alt=""
@@ -95,38 +102,26 @@
       </div>
     </div>
 
-    <footer class="bg-dark text-center text-white">
-      <!-- Grid container -->
-      <div class="container p-4 pb-0">
-        <!-- Section: Social media -->
-        <section class="mb-4">
-          <!-- Linkedin -->
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
           <a
-            class="btn btn-outline-light btn-floating m-1"
             href="https://www.linkedin.com/in/ignacio-thomson/"
-            role="button"
+            class="nav-link px-2 text-muted"
             target="_blank"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-
-          <!-- Github -->
+            >Linkedin</a
+          >
+        </li>
+        <li class="nav-item">
           <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="https://github.com/ignacio-thomson"
-            role="button"
+            href="https://www.github.com/ignacio-thomson"
+            class="nav-link px-2 text-muted"
             target="_blank"
-            ><i class="fab fa-github"></i
-          ></a>
-        </section>
-        <!-- Section: Social media -->
-      </div>
-      <!-- Grid container -->
-
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2022 Ignacio Thomson
-      </div>
-      <!-- Copyright -->
+            >Github</a
+          >
+        </li>
+      </ul>
+      <p class="text-center text-muted">2022 - Ignacio Thomson</p>
     </footer>
 
     <script
