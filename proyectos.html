@@ -37,12 +37,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Ignacio Thomson - Desarrollador Java Junior</title>
+    <title>Ignacio Thomson - Desarrollador Full Stack Junior</title>
   </head>
   <body>
     <div class="navbar navbar-expand-lg bg-light py-3 mb-5" id="#top">
       <div class="container">
-        <h1 class="navbar-brand text-dark">Ignacio Thomson</h1>
+        <h1 class="navbar-brand text-dark" style="font-weight: bolder">
+          Ignacio Thomson
+        </h1>
 
         <button
           class="navbar-toggler"
@@ -70,18 +72,31 @@
               >
             </li>
             <li class="nav-item">
-                <a
-                  href="index.html"
-                  class="nav-link link-contacto text-dark"
-                  id="navbar_link"
-                  style="
-                    text-decoration: none;
-                    font-weight: 500;
-                    font-size: large;
-                  "
-                  >Inicio</a
-                >
-              </li>
+              <a
+                href="index.html"
+                class="nav-link link-contacto text-dark"
+                id="navbar_link"
+                style="
+                  text-decoration: none;
+                  font-weight: 500;
+                  font-size: large;
+                "
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="tecnologias.html"
+                class="nav-link link-contacto text-dark"
+                id="navbar_link"
+                style="
+                  text-decoration: none;
+                  font-weight: 500;
+                  font-size: large;
+                "
+                >Tecnologías</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -94,6 +109,47 @@
             <h1>Galeria de proyectos</h1>
           </div>
         </div>
+      </div>
+
+      <div class="container pt-5">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="w-75">
+            <div class="d-flex justify-content-center mb-5">
+              <h1>Web APP - ReactJS & NodeJS - Express</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="d-flex justify-content-center p-5">
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/RHAyA2K61U4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <div class="w-75">
+            <p style="font-size: large">
+              Aplicación Web con arquitectura <b>RESTful</b>, con su Back-end
+              desarrollado en <b>NodeJS</b> & <b>Express</b>. Front-end desarrollado en el
+              Framework <b>ReactJS</b>. Se utiliza sistema de autenticación por <b>JWT</b> para validar el acceso a los distintos Endpoints.
+              Se puede manejar el modo claro u oscuro. Simula ser un centro de administración para la
+              empresa ficticia Coreware para añadir, editar, eliminar y leer,
+              componentes, bodegas o distribuidores. Se utilizó la base de datos
+              <b>MongoDB</b>. Se realizó el despliegue en
+              <b>Vercel</b> (Front-end) y <b>Railway</b> (Back-end).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <hr class="hr hr-blurry" />
       </div>
 
       <div class="container pt-5 mb-5">
@@ -129,15 +185,14 @@
             <img
               class="w-75 shadow imagen-zoom mt-2 mb-5"
               src="assets/img/IMDB/Captura de pantalla 2022-10-05 142807.png"
-              alt=""  
+              alt=""
               style="border-radius: 10px"
             />
           </div>
           <div class="col-lg d-flex justify-content-center align-items-center">
             <div class="w-75">
               <p style="font-size: large">
-                Aplicación protegida con credenciales de acceso, con Inicios
-                dedicados tanto para Administrador, como usuarios comunes.
+                Formulario de registro que añade usuarios a la base de datos.
               </p>
             </div>
           </div>
@@ -190,19 +245,26 @@
               />
             </div>
             <div class="col-12">
-              <h5 class="">
-                Sitio web inspirado en manejo de bódega para locales comerciales
-              </h5>
-              <br />
-              <p style="font-size: large">
-                Logistiqal fue un proyecto orientado a imitar una aplicación
-                donde se pudiera administrar la bódega de un local comercial. Al
-                igual que en el proyecto IMDb, se puede realizar un CRUD con los
-                productos, es decir, crear, leer, actualizar o eliminarlos de la
-                base de datos. También posee una barra de búsqueda que devuelve
-                como resultado todos los productos que contengan la palabra
-                utilizada como criterio de búsqueda.
-              </p>
+              <div class="d-flex justify-content-center mb-5">
+                <div class="w-75">
+                  <h5 class="">
+                    Sitio web inspirado en manejo de bódega para locales
+                    comerciales
+                  </h5>
+                  <br />
+
+                  <p style="font-size: large">
+                    <b>Logistiqal</b> fue un proyecto orientado a imitar una
+                    aplicación donde se pudiera administrar la bódega de un
+                    local comercial. Al igual que en el proyecto IMDb, se puede
+                    realizar un <b>CRUD</b> con los productos, es decir, crear,
+                    leer, actualizar o eliminarlos de la base de datos. También
+                    posee una <b>barra de búsqueda</b> que devuelve como
+                    resultado todos los productos que contengan la palabra
+                    utilizada como criterio de búsqueda.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -238,7 +300,11 @@
 
     <div class="container pt-5">
       <div class="d-flex justify-content-center align-items-center">
-        <h1>API REST - CRUD&trade;</h1>
+        <div class="w-75">
+          <div class="d-flex justify-content-center mb-5">
+            <h1>Web APP - Angular JS & Spring Boot</h1>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -268,10 +334,10 @@
       <div class="d-flex justify-content-center mb-5">
         <div class="w-75">
           <p style="font-size: large">
-            Servicio API REST básico, con Back-end desarrollado en el Framework
-            de Java Springboot y Front-end desarrollado en el Framework
-            AngularJS. Se pueden realizar funciones básicas de un CRUD, para
-            añadir personas a una base de datos.
+            Aplicación Web con arquitectura <b>RESTful</b>, Back-end desarrollado en el
+            Framework de <b></b>Spring Boot</b> de <b>Java</b> y Front-end desarrollado en el
+            Framework <b>AngularJS</b>. Se pueden realizar funciones básicas de un
+            <b>CRUD</b>, para añadir personas a una base de datos.
           </p>
         </div>
       </div>
